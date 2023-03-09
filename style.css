@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/*  #2DFA7F  #5ABB81  #1FAD58  #133822  #1A8F49  */
+
+@font-face {
+    font-family: "idroid";
+    src: url(midia/fontes/idroid.otf);
+}
+
+/*header*/
+header{
+    background-image: linear-gradient(to bottom, #25cc68, #146b37);
+    color: white;
+    padding-bottom: 8px;
+}
+
+header > h1{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+header > p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+header > nav > a:hover{
+    text-decoration: underline;
+}
+
+/*body*/
+body{
+    background-color: #5ABB81;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+}
+
+/*div1*/
+main > div#d1 > h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #146b37;
+    font-weight: bolder;
+    font-family: "idroid", serif;
+}
+
+/*div2*/
+main > div#d2 > p > a{
+    color: #165f33;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main > div#d2 > p > a::after{
+    content: ' [link]';
+    font-size: small;
+}
+
+/*div3*/
+
+
+/*div4*/
+main > div#d4 > p > a{
+    color: #165f33;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main > div#d4 > p > a::after{
+    content: ' [link]';
+    font-size: small;
+}
+
+/*div5*/
+main > div#d5 > picture > img{
+    padding: 0px 10px 0px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > div#d5 > img{
+    padding: 0px 10px 0px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*div6*/
+main > div#d6 > iframe{
+    width: 750px;
+    height: 400px;
+    border: 25px solid #146b37;
+}
+
+/*div7*/
+main > div#d7 > h2{
+    color: white;
+    background-color: #25cc68;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 35px;
+    border-radius: 7px 7px 0px 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main > div#d7 > section#extra{
+    background-color: #5abb8170;
+    font-weight: bold;
+    border-radius: 0px 0px 7px 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+
+main > div#d7 > section#extra > p{
+    margin: 0px;
+    padding: 10px;
+    text-justify: auto;
+    text-indent: 20px;
+}
+
+main > div#d7 > section#extra > ul{
+    column-count: 2;
+}
+
+main > div#d7 > section > p > a{
+    color: #165f33;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main > div#d7 >  section > p > a::after{
+    content: ' [link]';
+    font-size: small;
+}
+
+/*div8*/
+main > div#d8{
+    padding: 10px;
+    text-justify: auto;
+    text-indent: 20px;
+    font-weight: bold;
+}
+
+/*footer*/
+footer > p{
+    background-color: #146b37;
+    color: white;
+    text-align: center;
+    border: 4px solid #146b37;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    
+}
+
+/*classes e gerais*/
+main > div > p{
+    margin: 0px;
+    padding: 10px;
+    text-justify: auto;
+    text-indent: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titulo-degrade{
+    background-image: repeating-linear-gradient(to right, #25cc6852, #5abb8105);
+    background-position: 10px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #146b37;
+    font-weight: bolder;
+    font-family: "idroid", serif;
+}
+
+.destacado{
+    color: #146b37;
+    font-size: bold;
+}
